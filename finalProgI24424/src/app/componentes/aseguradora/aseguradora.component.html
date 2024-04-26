@@ -1,0 +1,18 @@
+<h5>COMPANIA ASEGURADORA</h5>
+
+
+<div class="card p-2 d-flex flex-column ">
+
+
+    <li>Nombre: {{ datos?.compania_aseguradora?.nombre }}</li>
+    <li>Dirección: {{ datos?.compania_aseguradora?.direccion }}</li>
+    <li>Teléfono: {{ datos?.compania_aseguradora?.telefono }}</li>
+
+    <div class="d-flex justify-content-center">
+        <button class="btn btn-primary btn-sm mr-3 ml-3" routerLink="polizas">Ver Polizas</button>
+    </div>
+
+</div>
+
+
+<router-outlet></router-outlet>

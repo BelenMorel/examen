@@ -1,0 +1,45 @@
+{
+    "compania_aseguradora": {
+      "nombre": "Compañía Aseguradora XYZ",
+      "direccion": "123 Calle Principal, Ciudad",
+      "telefono": "+1234567890"
+    },
+    "polizas": [
+      {
+        "id": "ABC123",
+        "fecha": "22-4-24",
+        "objetos_asegurados": [
+          {
+            "nombre": "Televisor",
+            "valor": 1000
+          },
+          {
+            "nombre": "Teléfono",
+            "valor": 800
+          },
+          {
+            "nombre": "Laptop",
+            "valor": 1500
+          }
+        ]
+      },
+      {
+        "id": "ABC124",
+        "fecha": "24-4-24",
+        "objetos_asegurados": [
+          {
+            "nombre": "Televisor2",
+            "valor": 2000
+          },
+          {
+            "nombre": "Teléfono",
+            "valor": 3000
+          },
+          {
+            "nombre": "Computadora",
+            "valor": 1500000
+          }
+        ]
+      }
+    ]
+  }
